@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>recup une valeur</title>
+
+</head>
+
+<body>
+  
+<h2>Saisissez du texte</h2>
+
+<form>
+<input type="text" id="textBox1" value="">
+<input type="button" id="button1" value="Controler" onclick="controle()">
+</form>
+
+<script>
+function controle(){   
+var saisie =document.getElementById("textBox1").value;
+alert("vous avez saisi: " + saisie);
+}
+</script>
+    
+</body>
+
+</html>
